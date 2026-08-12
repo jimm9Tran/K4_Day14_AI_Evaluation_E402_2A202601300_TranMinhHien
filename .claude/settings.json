@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/check-obsidian-docs.sh 2>/dev/null || true",
+            "statusMessage": "Checking Obsidian/ docs are up to date..."
+          }
+        ]
+      }
+    ]
+  }
+}
